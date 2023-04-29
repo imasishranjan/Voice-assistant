@@ -34,7 +34,7 @@ function wishMe() {
 window.addEventListener('load', ()=>{
     speak("Activating Loreta");
     speak("Going online");
-    speak("Created by Rick");
+    speak("Created by Ashish");
     wishMe();
 })
 
@@ -134,8 +134,8 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    speech.volume = 100;
-    speech.pitch = 20;
+    speech.volume = 10;
+    speech.pitch = 2;
     speech.rate = 1;
 
     window.speechSynthesis.speak(speech);
