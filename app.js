@@ -58,7 +58,7 @@ function speakThis(message) {
     speech.text = "I did not understand what you said please try again";
 
     if(message.includes('hey') || message.includes('hello')) {
-        const finalText = "Hello sir";
+        const finalText = "Hello sir Tell me how can i help you";
         speech.text = finalText;
     }
 
@@ -134,7 +134,7 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    speech.volume = 1;
+    speech.volume = 100%;
     speech.pitch = 1;
     speech.rate = 1;
 
