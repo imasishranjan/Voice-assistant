@@ -114,7 +114,7 @@ function speakThis(message) {
         speech.text = finalText;
     }
     
-    else if(message.includes('open Linkedin')) {
+    else if(message.includes('open linkedin')) {
         window.open("https://in.linkedin.com", "_blank");
         const finalText = "Chiki is Opening The Linkedin";
         speech.text = finalText;
