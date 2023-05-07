@@ -171,8 +171,8 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    speech.volume = 1;
-    speech.pitch = 20;
+    speech.volume = 100;
+    speech.pitch = 10;
     speech.rate = 0.90;
 
     window.speechSynthesis.speak(speech);
