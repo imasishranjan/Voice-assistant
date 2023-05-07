@@ -32,9 +32,9 @@ function wishMe() {
 }
 
 window.addEventListener('load', ()=>{
-    speak("Activating Loreta");
+    speak("Activating Chiki");
     speak("Going online");
-    speak("Created by asish");
+    speak("Created by ashish");
     wishMe();
 })
 
@@ -57,7 +57,7 @@ function speakThis(message) {
 
     speech.text = "I did not understand what you said please try again";
 
-    if(message.includes('hai') || message.includes('hello') || message.includes('ki re')) {
+    if(message.includes('hai') || message.includes('hello') || message.includes('ki re')) || message.includes('hi') {
         const finalText = "Hello sir I am Chiki Tell me how can i help you";
         speech.text = finalText;
     }
@@ -171,8 +171,8 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    speech.volume = 100;
-    speech.pitch = 10;
+    speech.volume = 1;
+    speech.pitch = 1;
     speech.rate = 0.90;
 
     window.speechSynthesis.speak(speech);
