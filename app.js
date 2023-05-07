@@ -57,7 +57,7 @@ function speakThis(message) {
 
     speech.text = "I did not understand what you said please try again";
 
-    if(message.includes('hai') || message.includes('hello') || message.includes('ki re')) || message.includes('hi') {
+    if(message.includes('hai') || message.includes('hello') || message.includes('ki re') || message.includes('hi')) {
         const finalText = "Hello sir I am Chiki Tell me how can i help you";
         speech.text = finalText;
     }
