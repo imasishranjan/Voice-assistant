@@ -9,9 +9,10 @@
 
 .main {
   min-height: 100vh;
-  position: relative;
+  position:relative;
   width: 100%;
-  background: #000;
+  background:black;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +39,10 @@
   color: aqua;
   text-align: center;
   margin-bottom: 10px;
-  font-size: 40px;
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: gray 2px 2px 3px;
+
 }
 
 .main .image-container p {
@@ -83,21 +87,20 @@
   font-size: 15px;
   margin-right: 20px;
 }
-.L{
-  color: blue;
+
+.C{
+  color: red;
 }
-.O{
+.H{
   color: yellow;
 }
-.R{
-  color: red;
+.I1{
+  color:darkgreen;
 }
-.E{
-  color: aqua;
+.K{
+  color:blue;
 }
-.T{
-  color: green;
+.I2{
+  color:darkmagenta;
 }
-.A{
-  color: red;
-}
+
