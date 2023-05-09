@@ -22,5 +22,5 @@ commands - 1. hello / hi / ki re
           16. date
           17. open calculator
           18. anything search
-          
+          19. open facebook
            
