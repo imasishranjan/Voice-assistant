@@ -82,6 +82,12 @@ function speakThis(message) {
         const finalText = "Chiki is Opening The Google";
         speech.text = finalText;
     }
+    
+    else if(message.includes('open facebook')) {
+        window.open("https://facebook.com", "_blank");
+        const finalText = "Chiki is Opening The Facebook";
+        speech.text = finalText;
+    }
    
     else if(message.includes('connect') || message.includes('chat GPT')) {
         window.open(" https://chat.openai.com/", "_blank");
