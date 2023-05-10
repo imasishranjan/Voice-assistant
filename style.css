@@ -11,7 +11,7 @@
   min-height: 100vh;
   position:relative;
   width: 100%;
-  background:black;
+  background: black;
   
   display: flex;
   flex-direction: column;
