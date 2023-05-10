@@ -11,7 +11,7 @@ commands - 1. hello / hi / ki re
            5. open google
            6. connect / chatgpt
            7. play songs / play song / play radio
-           8. play movies / play movies / my movies / movies
+           8. play movie / play movies / my movies / movies
            9. open instagram
           10. open spotify
           11. open linkedin
