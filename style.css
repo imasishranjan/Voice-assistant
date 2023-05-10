@@ -31,8 +31,9 @@
 }
 
 .main .image-container .image img {
-  width: 500px;
+  width: 400px;
   align-items: center;
+  display: flex;
 }
 
 .main .image-container h1 {
