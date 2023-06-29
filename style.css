@@ -90,18 +90,18 @@
 }
 
 .C{
-  color: red;
-}
-.H{
-  color: yellow;
-}
-.I1{
-  color:darkgreen;
-}
-.K{
-  color:blue;
-}
-.I2{
-  color:darkmagenta;
-}
+    color: red;
+  }
+  .H{
+    color: yellow;
+  }
+  .I1{
+    color:rgb(10, 226, 10);
+  }
+  .K{
+    color:blue;
+  }
+  .I2{
+    color:rgb(246, 208, 15);
+  }
 
