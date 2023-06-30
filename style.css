@@ -104,4 +104,16 @@
   .I2{
     color:rgb(246, 208, 15);
   }
+/*button style*/
 
+.button1{
+background-color: #18f98f;
+border: none;
+position: absolute;
+transform: translate(-50%, -50%);
+padding: 7px 15px;
+font-size: 40;
+font-weight: bold;
+border-radius: 10px;
+cursor: pointer;
+}
